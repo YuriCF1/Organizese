@@ -1,0 +1,46 @@
+.lateral {
+    background-color: #1E6091;
+    box-sizing: border-box;
+    width: 15vh;
+    padding: 0.2rem;
+    text-align: center;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+
+}
+
+.lateral_frase {
+    margin-top: 3rem;
+    font-size: 1.1rem;
+
+}
+
+.lateral_lista {
+    margin-top: 2rem;
+    
+}
+
+h3,h4 {
+    text-decoration: underline;
+    text-decoration-thickness: 20%;
+
+}
+
+.lateral_lista > li {
+    margin-top: 1.5rem;
+    cursor: pointer;
+}
+
+.lateral_lista > li:nth-child(2) {
+    margin-top: .5rem;
+    cursor: pointer;
+}
+
+ul > li > i {
+    margin-left: 0.3rem;
+
+}
+
