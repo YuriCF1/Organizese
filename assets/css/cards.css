@@ -1,3 +1,47 @@
+.meta {
+    position: relative;
+
+}
+
+.meta_container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 15vh;
+
+    position: absolute;
+    top: -80vh;
+    left: 22.5vh;
+    width: 15vw;
+
+    padding: 1rem;
+    background-color: rgb(124, 152, 243);
+
+}
+
+.meta_container i {
+    margin-bottom: 0.4rem;
+    text-align: end;    
+}
+
+.meta_nome {
+    font-size: 1.2rem;
+
+}
+
+.meta_container span {
+    margin: 0.8rem 0 .5rem 0;
+}
+
+.meta_descricao {
+    height: 3rem;
+
+}
+
+
+
+/*
+
 /*________Cards no inicio________________________*/
 .cards_container {
     display: flex;
